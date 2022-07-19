@@ -1,0 +1,18 @@
+@use "global" as *;
+.myswiper1 {
+  width: 100%;
+  @include mq(md) {
+  }
+}
+
+.swiper-slide {
+  padding-top: 69.6%;
+  position: relative;
+}
+
+.swiper-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
