@@ -95,7 +95,6 @@ html {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
 
@@ -171,5 +170,21 @@ select {
 
 select::-ms-expand {
   display: none;
+}
+
+.myswiper1 {
+  width: 100%;
+}
+.swiper-slide {
+  padding-top: 69.6%;
+  position: relative;
+}
+
+.swiper-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=styles.css.map */
